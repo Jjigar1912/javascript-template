@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    max-width : 1100px;
+    margin : auto ;
+    padding-inline: 10px;
+}
+.ptb-30
+{
+    padding-block: 30px;
+}
+.bg-dark
+{
+    background : #363636;
+}
+.text-white
+{
+    color : white;
+}
+.container ul
+{
+    display : flex;
+    justify-content: center;
+}
+.container ul li 
+{
+    list-style-type: none;
+    padding : 20px;
+    font-size: 20px;
+}
+.bg-cream
+{
+    background : #eceae6;
+}
+.text-center
+{
+    text-align: center;
+}
+.ptb-15
+{
+    padding-block: 15px;
+}
+.flex
+{
+    display: flex;
+}
+.justify-content-space-around
+{
+    justify-content: space-around;
+}
+.line-height-50
+{
+    line-height: 50px;
+}
+.mt-30
+{
+    margin-top : 30px;
+}
+.fontsize-20
+{
+    font-size: 20px;
+}
+.min-height-500
+{
+    min-height: 500px;
+}
+.fontsize-15
+{
+    font-size: 15px;
+}
+.p-8
+{
+    padding : 8px;
+}
+.bg-orange
+{
+    background-color: #f98e37;
+}
+.radius-10
+{
+    border-radius : 10px;
+}
+.border-none
+{
+    border : none;
+}
+.bg-black
+{
+    background-color: #021926;
+}
+.m-auto
+{
+    margin : auto;
+}
+.justify-content-center
+{
+    justify-content: center;
+}
+.flex-wrap
+{
+    flex-wrap: wrap;
+}
+.flex-column
+{
+    flex-direction: column;
+}
+.align-items-center
+{
+    align-items: center;
+}
+.gap-10
+{
+    gap : 10px;
+}
+.mb-10
+{
+    margin-bottom : 10px;
+}
+.fontsize-30
+{
+    font-size: 30px !important;
+}
+.display-none
+{
+    display: none !important;
+}
+.flex-end
+{
+    justify-content: flex-end;
+}
+.openMenu ul li
+{
+    display : block;
+    width : 100%;
+}
+.openMenu ul li
+{
+    width : 100%;
+    display: block;
+}
+.burgar-menu
+{
+    display: none !important;
+}
+.ml-3
+{
+    margin-left : 10px;
+}
+@media  screen and (max-width : 676px) {
+    .burgar-menu
+    {
+        display: block !important;
+    }
+    nav ul li{
+        display : none;
+    }  
+    nav ul 
+    {
+        flex-direction: column;
+    }  
+    .ptb-sm-30
+    {
+        padding-inline: 10px;
+        padding-block : 20px;
+    }
+      
+}

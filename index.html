@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="nav bg-dark text-white">
+      <div class="ptb-sm-30 flex flex-end">
+        <i class="fa fa-bars fontsize-30 burgar-menu" onclick="openMenu()"></i>
+      </div>
+      <nav class="container" id="navbar">
+        <ul>
+          <li>The Book Series</li>
+          <li>Testimonials</li>
+          <li>The Author</li>
+          <li>Free Resources</li>
+        </ul>
+      </nav>
+    </section>
+    <section class="main bg-cream min-height-500">
+      <div class="container">
+        <h1 class="text-center ptb-15">You don't know JavaScript</h1>
+        <section
+          class="flex justify-content-space-around mt-30 flex-wrap gap-10"
+        >
+          <div>
+            <img src="js.png" />
+          </div>
+          <div
+            class="line-height-50 fontsize-20 flex align-items-center flex-column gap-10"
+          >
+            <h5>Don't just drift through javascript.</h5>
+            <h5>Understand how javascript works.</h5>
+            <h5 class="text-center">
+              Start your journey through the bumpy side of javascript.
+            </h5>
+            <button
+              class="p-8 bg-orange text-white border-none fontsize-15 radius-10 mb-10"
+            >
+              Order Your Copy Now
+            </button>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="footer bg-black">
+      <div class="container ptb-15">
+        <p class="text-white text-center">
+          The first ebook in the book series is absolutely free.
+        </p>
+        <div class="flex justify-content-center mt-30">
+          <button
+            class="bg-orange text-white p-8 m-auto border-none fontsize-15 radius-10"
+          >
+            Find Out More About this offer
+          </button>
+        </div>
+      </div>
+    </section>
+    <script>
+      var nav = document.getElementById("navbar");
+      const openMenu = () => {
+        if (nav.classList.contains("openMenu")) {
+          nav.classList.remove("openMenu");
+        } else {
+          nav.classList.add("openMenu");
+        }
+      };
+    </script>
+  </body>
+</html>
